@@ -4,28 +4,28 @@
       "version": "4.7.0-0.nightly-2020-12-17-170130",
       "payload": "example.com@sha256:c856334a637d52d674d9f3ed529c86feb733b512d6eb587c8164cd721634c365",
       "metadata": {
-	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,nightly-4.7"
+	"io.openshift.upgrades.graph.release.channels": "nightly-4.7"
       }
     },
     {
       "version": "4.7.0-0.nightly-2020-12-17-224915",
       "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:4a49c8820448a752f508591171d3fc73373ab5cfd23272259a28f963a85f157d",
       "metadata": {
-	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,nightly-4.7"
+	"io.openshift.upgrades.graph.release.channels": "nightly-4.7"
       }
     },
     {
       "version": "4.7.0-0.nightly-2020-12-17-170131",
       "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:c856334a637d52d674d9f3ed529c86feb733b512d6eb587c8164cd721634c365",
       "metadata": {
-	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,nightly-4.7"
+	"io.openshift.upgrades.graph.release.channels": "channel-c"
       }
     },
     {
       "version": "4.7.0-0.nightly-2020-12-17-224916",
       "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:4a49c8820448a752f508591171d3fc73373ab5cfd23272259a28f963a85f157d",
       "metadata": {
-	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,nightly-4.7"
+	"io.openshift.upgrades.graph.release.channels": "channel-c"
       }
     }
   ],
