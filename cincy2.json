@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "version": "4.7.0-0.nightly-2020-12-17-170130",
+      "version": "4.7.0-0.nightly-2020-12-17-170131",
       "payload": "example.com@sha256:c856334a637d52d674d9f3ed529c86feb733b512d6eb587c8164cd721634c365",
       "metadata": {
 	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b"
