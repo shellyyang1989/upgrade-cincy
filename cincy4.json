@@ -1,15 +1,15 @@
 {
   "nodes": [
     {
-      "version": "4.7.0-0.nightly-2021-02-04-075559",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:e2848607f840fc9e57866182e38cf93e2b4b8819e83f3576cad1cb7c6fad7a30",
+      "version": "4.7.0-0.nightly-2021-02-05-161444",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:5482db5667e005c783a3af9907d0db116b02290deafee6ee78d69b020e2c498a",
       "metadata": {
 	"io.openshift.upgrades.graph.release.channels": "nightly-4.7"
       }
     },
     {
-      "version": "4.7.0-0.nightly-2021-02-04-151206",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:fb8c33fbbfb1887f155f7822992020d25392df14444016f793f9a4fa40805d12",
+      "version": "4.7.0-0.nightly-2021-02-05-221250",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:4ae3e3c8aed290eae504af397c0fe4f141c7d30ed7276da0cedf9d271d1f8de4",
       "metadata": {
         "io.openshift.upgrades.graph.release.channels": "nightly-4.7"
       }
