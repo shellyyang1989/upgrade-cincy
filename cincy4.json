@@ -8,7 +8,7 @@
       }
     },
     {
-      "version": "4.7.0-rc.0-x86_64",
+      "version": "4.7.0-rc.0",
       "payload": "quay.io/openshift-release-dev/ocp-release@sha256:497fa748b89619aba312a926a0be0ad155c4b894ca3e2824a00167421e3441b0",
       "metadata": {
         "io.openshift.upgrades.graph.release.channels": "nightly-4.7"
