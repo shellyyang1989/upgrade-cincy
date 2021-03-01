@@ -4,14 +4,14 @@
       "version": "4.5.0-0.nightly-2021-02-26-170201",
       "payload": "registry.ci.openshift.org/ocp/release@sha256:e54366af2e363c90249dceb97a1496d3b4249da69c5400ab383eca63799db762",
       "metadata": {
-	"io.openshift.upgrades.graph.release.channels": "4.6"
+	"io.openshift.upgrades.graph.release.channels": "stable-4.6"
       }
     },
     {
       "version": "4.6.19",
       "payload": "quay.io/openshift-release-dev/ocp-release@sha256:47df4bfe1cfd6d63dd2e880f00075ed1d37f997fd54884ed823ded9f5d96abfc",
       "metadata": {
-        "io.openshift.upgrades.graph.release.channels": "4.6"
+        "io.openshift.upgrades.graph.release.channels": "stable-4.6"
       }
     }
   ],
