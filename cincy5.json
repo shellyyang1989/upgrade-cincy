@@ -4,14 +4,14 @@
       "version": "4.9.0-0.nightly-2021-07-31-093358",
       "payload": "registry.ci.openshift.org/ocp/release@sha256:4f0259a151cdcea1581ab0d5a73e39d5aa64c75a1cd3a78f8440f208b387e411",
       "metadata": {
-	"io.openshift.upgrades.graph.release.channels": "channel-a, channel-b"
+	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b"
       }
     },
     {
       "version": "4.9.0-0.nightly-2021-08-01-102437",
       "payload": "registry.ci.openshift.org/ocp/release@sha256:421304acff8d9c5bf24365c42460721f9ae1392dd20fbf642c118c163b7731e5",
       "metadata": {
-	"io.openshift.upgrades.graph.release.channels": "channel-a, channel-b"
+	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b"
       }
     }
   ],
