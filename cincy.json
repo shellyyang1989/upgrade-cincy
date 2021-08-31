@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "version": "4.9.0-0.nightly-2021-08-25-111423",
+      "version": "4.9.0-0.nightly-2021-08-28-082738",
       "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:5f4f4b823f5e79140ddb360f6d779da319a596ceb56b9f1928e400a37f19d785",
       "metadata": {
         "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.9.0-0.nightly/release/4.9.0-0.nightly-2021-08-28-082738",
