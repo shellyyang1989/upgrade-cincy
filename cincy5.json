@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "version": "4.9.0-0.nightly-2021-09-23-142241",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:6a7c75573b707cb8438d7f1b6e5c429985fa3bf7cda6cb6ce44f25cf06b48688",
+      "version": "4.9.0-0.nightly-2021-10-12-211242",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:63668d9b890f6598b98e8b0a205fdadc6574692dccb3f952af7dd9d5f94351bf",
       "metadata": {
 	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b"
       }
