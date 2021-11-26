@@ -2,19 +2,23 @@
   "nodes": [
     {
       "version": "4.10.0-0.nightly-2021-11-24-030137",
-      "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:sha256:cf6d62128faca3a6d4d43d66ce814e280b5a890c1d620c6ddac26780a6b13a37"
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:cf6d62128faca3a6d4d43d66ce814e280b5a890c1d620c6ddac26780a6b13a37"
     },
     {
       "version": "4.10.0-0.nightly-2021-11-24-075634",
-      "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:sha256:38e74b38c25c6098432e07eb7ae72dba351e654689f2762ee6ab2fea9ed42ff0"
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:38e74b38c25c6098432e07eb7ae72dba351e654689f2762ee6ab2fea9ed42ff0"
     },
     {
       "version": "4.10.0-0.nightly-2021-11-24-115738",
-      "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:c795c9d62bb525bfed6e021cc07b6e44ea3c7eb660aa80c2a9d96fdfd9e51973"
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:c795c9d62bb525bfed6e021cc07b6e44ea3c7eb660aa80c2a9d96fdfd9e51973"
     },
     {
       "version": "4.10.0-0.nightly-2021-11-24-164029",
-      "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:d7c5231c9ba86d3414058a66deb9dd9093c3f23928e2e18a04dd3dbf4277a87f"
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:d7c5231c9ba86d3414058a66deb9dd9093c3f23928e2e18a04dd3dbf4277a87f"
+    },
+    {
+      "version": "4.10.0-0.nightly-2021-11-25-024655",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:5da286d312be261cafda6f80a81fae5a67e8a81a72d451b1fd75a00d19ea1bd9"
     }
   ],
   "edges": [
@@ -66,6 +70,26 @@
           "matchingRules": [
             {
               "type": "Always"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edges": [
+        {"from": "4.10.0-0.nightly-2021-11-24-030137", "to": "4.10.0-0.nightly-2021-11-25-024655"}
+      ],
+      "risks": [
+        {
+          "url": "https://access.redhat.com/solutions/5896081",
+          "name": "VSphereHW14CrossNodeNetworkingError",
+          "message": "Clusters on vSphere Virtual Hardware Version 14 and later may experience cross-node networking issues.",
+          "matchingRules": [
+            {
+              "type": "PromQL",
+              "promql": {
+                "promql": "cluster_infrastructure_provider{type=~\"VSphere|None\"}"
+              }
             }
           ]
         }
