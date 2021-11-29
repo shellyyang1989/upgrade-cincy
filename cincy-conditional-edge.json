@@ -32,8 +32,8 @@
       "risks": [
         {
           "url": "https://bug.example.com/a",
-          "name": "SomeVersionThing",
-          "message": "On clusters with version set to 4.10.0-0.nightly-2021-11-24-030137, this imaginary bug can happen.",
+          "name": "SomeInvokerThing",
+          "message": "On clusters on default invoker user, this imaginary bug can happen.",
           "matchingRules": [
             {
               "type": "PromQL",
