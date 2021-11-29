@@ -31,14 +31,14 @@
       ],
       "risks": [
         {
-          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1941840#c33",
-          "name": "AuthOAuthProxyLeakedConnections",
-          "message": "On clusters with a Proxy configured, the authentication operator may keep many oauth-server connections open, resulting in high memory consumption by the authentication operator and router pods.",
+          "url": "https://bug.example.com/a",
+          "name": "SomeVersionThing",
+          "message": "On clusters with version set to 4.10.0-0.nightly-2021-11-24-030137, this imaginary bug can happen.",
           "matchingRules": [
             {
               "type": "PromQL",
               "promql": {
-                "promql": "max(cluster_proxy_enabled{type=~\"https?\"})"
+                "promql": "max(cluster_version{version=~\"4.10.0-0.nightly-2021-11-24-030137?\"})"
               }
             }
           ]
@@ -81,14 +81,14 @@
       ],
       "risks": [
         {
-          "url": "https://access.redhat.com/solutions/5896081",
-          "name": "VSphereHW14CrossNodeNetworkingError",
-          "message": "Clusters on vSphere Virtual Hardware Version 14 and later may experience cross-node networking issues.",
+          "url": "https://bug.example.com/c",
+          "name": "SomeInfrastructureThing",
+          "message": "Clusters on nonexist provider, this imaginary bug can happen.",
           "matchingRules": [
             {
               "type": "PromQL",
               "promql": {
-                "promql": "cluster_infrastructure_provider{type=~\"VSphere|None\"}\nor\n0 * cluster_infrastructure_provider"
+                "promql": "cluster_infrastructure_provider{type=~\"nonexist\"}\nor\n0 * cluster_infrastructure_provider"
               }
             }
           ]
