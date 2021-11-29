@@ -38,7 +38,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "cluster_installer{invoker=~\"user?\"}"
+                "promql": "cluster_installer"
               }
             }
           ]
