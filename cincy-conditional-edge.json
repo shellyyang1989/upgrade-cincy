@@ -38,7 +38,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "max(cluster_version{version=~\"4.10.0-0.nightly-2021-11-24-030137?\"})"
+                "promql": "cluster_installer{invoker=~\"user?\"}"
               }
             }
           ]
