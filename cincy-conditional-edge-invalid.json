@@ -32,16 +32,6 @@
           ]
         },
         {
-          "url": "https://bug.example.com/b",
-          "name": "TypeNull",
-          "message": "MatchingRules type is null.",
-          "matchingRules": [
-            {
-              "type": ""
-            }
-          ]
-        },
-        {
           "url": "https://bug.example.com/c",
           "name": "InvalidMatchingRulesType",
           "message": "MatchingRules type is invalid, support Always and PromQL.",
@@ -50,19 +40,6 @@
               "type": "nonexist",
               "promql": {
                 "promql": "group(cluster_version_available_updates{channel=\"buggy\"})\nor\n0 * group(cluster_version_available_updates{channel!=\"buggy\"})"
-              }
-            }
-          ]
-        },
-        {
-          "url": "https://bug.example.com/d",
-          "name": "InvalidPromQLQueryReturnValue",
-          "message": "PromQL query return value is not supported, support 0 and 1.",
-          "matchingRules": [
-            {
-              "type": "PromQL",
-              "promql": {
-                "promql": "max(cluster_version)"
               }
             }
           ]
