@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "version": "4.10.0-0.nightly-2021-12-03-213835",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:756d0c474165d49d697ec69b768476c53f2c8be6300f5c31303dd31ee8dd4b5d"
+    },
+    {
+      "version": "4.10.0-0.nightly-fake-version"
+    }
+  ],
+  "conditionalEdges":[
+    {
+      "edges": [
+        {"from": "4.10.0-0.nightly-2021-12-03-213835", "to": "4.10.0-0.nightly-fake-version"}
+      ],
+      "risks": [
+        {
+          "url": "https://fake.com/a",
+          "name": "InvalidVersion",
+          "message": "Invalid target version",
+          "matchingRules": [
+            {
+              "type": "Always"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
