@@ -22,23 +22,6 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.10.0-0.nightly-2021-12-03-213835", "to": ""}
-      ],
-      "risks": [
-        {
-          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.10.0-0.nightly/release/4.10.0-0.nightly-2021-11-24-075634",
-          "name": "TargetNull",
-          "message": "Empty target node",
-          "matchingRules": [
-            {
-              "type": "Always"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "edges": [
         {"from": "4.10.0-0.nightly-2021-12-03-213835", "to": "4.10.0-0.nightly-not-exist-in-nodes"}
       ],
       "risks": [
@@ -139,6 +122,23 @@
               "promql": {
                 "promql": "max(cluster_version)"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edges": [
+        {"from": "4.10.0-0.nightly-2021-12-03-213835", "to": ""}
+      ],
+      "risks": [
+        {
+          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.10.0-0.nightly/release/4.10.0-0.nightly-2021-11-24-075634",
+          "name": "TargetNull",
+          "message": "Empty target node",
+          "matchingRules": [
+            {
+              "type": "Always"
             }
           ]
         }
