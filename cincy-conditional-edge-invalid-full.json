@@ -14,7 +14,7 @@
     },
     {
       "version": "4.10.0-0.nightly-2021-12-06-162419",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:e4792120595f7ce643560fb5df1f3da56e89f0ef5d90a70886fa9159c0490c50"
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:dab4e6caa80616440b2001843046ed232de5ddac0cda1efe8a1217dcce0c8cbd"
     },
     {
       "version": "4.10.0-0.nightly-fake-version"
