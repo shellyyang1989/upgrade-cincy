@@ -16,7 +16,7 @@
       ],
       "risks": [
         {
-          "url": "//example.com",
+          "url": "// example.com",
           "name": "InvalidURL",
           "message": "Invalid URL.",
           "matchingRules": [
@@ -60,6 +60,19 @@
               "type": "PromQL",
               "promql": {
                 "promql": "max(cluster_version)"
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://bug.example.com/d",
+          "name": "InvalidPromQLQuery",
+          "message": "Invalid PromQL Query.",
+          "matchingRules": [
+            {
+              "type": "PromQL",
+              "promql": {
+                "promql": "cluster_infrastructure_provider{type=~\"VSphere|None\"}"
               }
             }
           ]
