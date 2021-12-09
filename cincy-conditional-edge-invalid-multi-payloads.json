@@ -21,7 +21,7 @@
       "risks": [
         {
           "url": "https://multiple.com/a",
-          "name": "Multiple releases",
+          "name": "MultipleReleases",
           "message": "The target version contains multiple releases",
           "matchingRules": [
             {
