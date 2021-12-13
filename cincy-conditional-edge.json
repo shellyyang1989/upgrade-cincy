@@ -1,20 +1,20 @@
 {
   "nodes": [
     {
-      "version": "4.10.0-0.nightly-2021-12-03-213835",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:756d0c474165d49d697ec69b768476c53f2c8be6300f5c31303dd31ee8dd4b5d"
+      "version": "4.10.0-0.nightly-2021-12-11-034522",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:7ccbba897e85a7c408d85d0afceb526eee0f15a1b7960bfb5295c4ac0195b98a"
     },
     {
-      "version": "4.10.0-0.nightly-2021-12-06-123512",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:e4792120595f7ce643560fb5df1f3da56e89f0ef5d90a70886fa9159c0490c50"
+      "version": "4.10.0-0.nightly-2021-12-11-095015",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:e115941f6de8ea4e0c6ee419da2efd099c5ac9e94edb1892788ff6bf3dd33af0"
     },
     {
-      "version": "4.10.0-0.nightly-2021-12-06-162419",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:dab4e6caa80616440b2001843046ed232de5ddac0cda1efe8a1217dcce0c8cbd"
+      "version": "4.10.0-0.nightly-2021-12-11-160046",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:2adc57b02528133d5d45ec4935bb4d415c607ec9f3e9ed2d6c1d8db2fb920175"
     },
     {
-      "version": "4.10.0-0.nightly-2021-12-06-201335",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:0ab310bf32a549764f37387a1da2f148485ce03a412ac9afea4f7173e4d43d5e"
+      "version": "4.10.0-0.nightly-2021-12-11-194356",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:7ef032a17d1b26f26017629f00a0180ebb7cbffd770f54140f5324a6733055d1"
     }
   ],
   "edges": [
@@ -23,7 +23,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.10.0-0.nightly-2021-12-03-213835", "to": "4.10.0-0.nightly-2021-12-06-123512"}
+        {"from": "4.10.0-0.nightly-2021-12-11-034522", "to": "4.10.0-0.nightly-2021-12-11-095015"}
       ],
       "risks": [
         {
@@ -56,7 +56,7 @@
     },
     {
       "edges": [
-        {"from": "4.10.0-0.nightly-2021-12-03-213835", "to": "4.10.0-0.nightly-2021-12-06-162419"}
+        {"from": "4.10.0-0.nightly-2021-12-11-034522", "to": "4.10.0-0.nightly-2021-12-11-160046"}
       ],
       "risks": [
         {
@@ -73,7 +73,7 @@
     },
     {
       "edges": [
-        {"from": "4.10.0-0.nightly-2021-12-03-213835", "to": "4.10.0-0.nightly-2021-12-06-201335"}
+        {"from": "4.10.0-0.nightly-2021-12-11-034522", "to": "4.10.0-0.nightly-2021-12-11-194356"}
       ],
       "risks": [
         {
