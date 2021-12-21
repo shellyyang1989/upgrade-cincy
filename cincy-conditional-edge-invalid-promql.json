@@ -21,7 +21,10 @@
           "message": "Invalid Promql",
           "matchingRules": [
             {
-              "type": "group(cluster_version_available_updates{channel=\"buggy\"})"
+              "type": "PromQL",
+              "promql": {
+                "promql": "group(cluster_version_available_updates{channel=\"buggy\"})"
+              }
             }
           ]
         }
