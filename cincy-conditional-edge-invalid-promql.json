@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "version": "4.10.0-0.nightly-2021-12-17-144502",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:0347908d08f325cc2f4b18c2d91848dc2ff68112d081e06c6d7d1f8e3e1f9934"
+    },
+    {
+      "version": "4.10.0-0.nightly-2021-12-18-034942",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:8da2f22f9462fd1a666215ae994ca0659bf35d070f9f99cb981faa07b2bbde38"
+    }
+  ],
+  "conditionalEdges":[
+    {
+      "edges": [
+        {"from": "4.10.0-0.nightly-2021-12-17-144502", "to": "4.10.0-0.nightly-2021-12-18-034942"}
+      ],
+      "risks": [
+        {
+          "url": "https://invalid.com/a",
+          "name": "InvalidPromQL",
+          "message": "Invalid Promql",
+          "matchingRules": [
+            {
+              "type": "group(cluster_version_available_updates{channel=\"buggy\"})"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
