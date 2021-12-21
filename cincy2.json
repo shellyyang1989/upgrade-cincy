@@ -9,7 +9,7 @@
     },
     {
       "version": "4.10.0-0.nightly-2021-12-18-034942",
-      "payload": "example.com@sha256:8da2f22f9462fd1a666215ae994ca0659bf35d070f9f99cb981faa07b2bbde38",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:8da2f22f9462fd1a666215ae994ca0659bf35d070f9f99cb981faa07b2bbde38",
       "metadata": {
 	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b"
       }
