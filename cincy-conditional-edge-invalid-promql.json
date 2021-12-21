@@ -23,7 +23,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "group(cluster_version_available_updates{channel=\"buggy\"})"
+                "promql": "group(cluster_version_available_updates{channel=buggy})"
               }
             }
           ]
