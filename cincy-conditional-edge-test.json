@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "version": "4.10.0-0.nightly-2022-01-11-065245",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:d9759e7c8ec5e2555419d84ff36aff2a4c8f9367236c18e722a3fe4d7c4f6dee"
+    },
+    {
+      "version": "4.10.0-0.nightly-2022-01-13-194710",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:233cd68af52077fb4b5ca01527c9849d047504a1504a079ea44d3327a58c4508"
+    },
+    {
+      "version": "4.10.0-0.nightly-2022-01-13-061145",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:c03f58e1f3000ddeabcfeb61f343fba640e9354e2e5347c044b41edb4faf7b96"
+    },
+    {
+      "version": "4.10.0-0.nightly-2022-01-14-015144",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:0aa02c29abf6555abdbc7d987e1a643a0bb25cc2e3597482dcb36575565d02bb"
+    }
+  ],
+  "edges": [
+    [0,2]
+  ],
+  "conditionalEdges":[
+    {
+      "edges": [
+        {"from": "4.10.0-0.nightly-2022-01-11-065245", "to": "4.10.0-0.nightly-2022-01-13-194710"}
+      ],
+      "risks": [
+        {
+          "url": "https://bug.example.com/a",
+          "name": "SomeInvokerThing",
+          "message": "On clusters on default invoker user, this imaginary bug can happen.",
+          "matchingRules": [
+            {
+              "type": "PromQL",
+              "promql": {
+                "promql": "cluster_installer"
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://bug.example.com/b",
+          "name": "SomeChannelThing",
+          "message": "On clusters with the channel set to 'buggy', this imaginary bug can happen.",
+          "matchingRules": [
+            {
+              "type": "PromQL",
+              "promql": {
+                "promql": "group(cluster_version_available_updates{channel=\"buggy\"})\nor\n0 * group(cluster_version_available_updates{channel!=\"buggy\"})"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edges": [
+        {"from": "4.10.0-0.nightly-2022-01-11-065245", "to": "4.10.0-0.nightly-2022-01-14-015144"}
+      ],
+      "risks": [
+        {
+          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.10.0-0.nightly/release/4.10.0-0.nightly-2021-11-24-075634",
+          "name": "ReleaseIsRejected",
+          "message": "Too many CI failures on this release, so do not update to it",
+          "matchingRules": [
+            {
+              "type": "Always"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
