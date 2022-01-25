@@ -1,15 +1,15 @@
 {
   "nodes": [
     {
-      "version": "4.10.0-0.nightly-2021-12-17-144502",
-      "payload": "example.com@sha256:0347908d08f325cc2f4b18c2d91848dc2ff68112d081e06c6d7d1f8e3e1f9934",
+      "version": "4.10.0-fc.2",
+      "payload": "example.com@sha256:85c6ce1cffe205089c06efe363acb0d369f8df7ad48886f8c309f474007e4faf",
       "metadata": {
 	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b"
       }
     },
     {
-      "version": "4.10.0-0.nightly-2021-12-18-034942",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:8da2f22f9462fd1a666215ae994ca0659bf35d070f9f99cb981faa07b2bbde38",
+      "version": "4.10.0-0.nightly-2022-01-24-070025",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:87c1f0019d44107031c662a3c387bba46d1f2710909b583e5f4c0ad61cdba36e",
       "metadata": {
 	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b"
       }
