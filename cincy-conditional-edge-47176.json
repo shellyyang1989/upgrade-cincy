@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "version": "4.10.0-rc.6",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:aed2a6eb5c99da354dfd4182f0fcdf7b8bc1c0c7db356644cf1fc669b1052012"
+    },
+    {
+      "version": "4.10.0-rc.7",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:f1712f7f5825e018a4cf0223ec010e39e6692c77f013e9bc6af2e25a7c17f746"
+    }
+  ],
+  "conditionalEdges":[
+    {
+      "edges": [
+        {"from": "4.10.0-rc.6", "to": "4.10.0-rc.7"}
+      ],
+      "risks": [
+        {
+          "url": "https://bug.example.com/a",
+          "name": "SomeInvokerThing",
+          "message": "On clusters on default invoker user, this imaginary bug can happen.",
+          "matchingRules": [
+            {
+              "type": "PromQL",
+              "promql": {
+                "promql": "cluster_installer"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
