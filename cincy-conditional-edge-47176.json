@@ -9,6 +9,9 @@
       "payload": "registry.ci.openshift.org/ocp/release@sha256:e474d91b23fdcfd2de7732442c9c985b0000a6560f7f5db14461f1c92105e8da"
     }
   ],
+  "edges": [
+    [0,1]
+  ],
   "conditionalEdges":[
     {
       "edges": [
