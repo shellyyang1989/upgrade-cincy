@@ -6,7 +6,7 @@
     },
     {
       "version": "4.11.0-0.nightly-2022-04-19-111252",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:e385a786f122c6c0e8848ecb9901f510676438f17af8a5c4c206807a9bc0bf28"
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:66c753e8b75d172f2a3f7ba13363383a76ecbc7ecdc00f3a423bef4ea8560405"
     },
     {
       "version": "4.11.0-0.nightly-2022-04-19-195955",
@@ -14,7 +14,7 @@
     },
     {
       "version": "4.11.0-0.nightly-2022-04-20-045714",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:66c753e8b75d172f2a3f7ba13363383a76ecbc7ecdc00f3a423bef4ea8560405"
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:e385a786f122c6c0e8848ecb9901f510676438f17af8a5c4c206807a9bc0bf28"
     }
   ],
   "edges": [
