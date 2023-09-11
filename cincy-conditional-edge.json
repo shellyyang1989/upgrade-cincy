@@ -30,7 +30,7 @@
       "risks": [
         {
           "url": "https://bug.example.com/a",
-          "name": "SomeInvokerThing!",
+          "name": "SomeInvokerThing",
           "message": "On clusters on default invoker user, this imaginary bug can happen.",
           "matchingRules": [
             {
@@ -43,7 +43,7 @@
         },
         {
           "url": "https://bug.example.com/b",
-          "name": "SomeChannelThing",
+          "name": "SomeChannelThing!",
           "message": "On clusters with the channel set to 'buggy', this imaginary bug can happen.",
           "matchingRules": [
             {
