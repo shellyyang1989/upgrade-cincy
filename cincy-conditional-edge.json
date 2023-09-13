@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "version": "4.15.0-0.test-2023-09-11-103700-ci-ln-msdh89k-latest",
-      "payload": "registry.build02.ci.openshift.org/ci-ln-msdh89k/release@sha256:6a7ced458ca1e9b04439a6d41772df68536e8dbed75a82f52c43fc0d796c177e"
+      "version": "4.14.0-0.nightly-2023-09-12-024050",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:f578403987bba590b6e75d1fb3140fc1861814ddedb233624fe86d1db2bd5043"
     },
     {
       "version": "4.15.0-0.nightly-2023-09-17-000000",
