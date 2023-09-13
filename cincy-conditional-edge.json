@@ -43,7 +43,7 @@
         },
         {
           "url": "https://bug.example.com/b",
-          "name": "SomeChannelThing!",
+          "name": "SomeChannelThing",
           "message": "On clusters with the channel set to 'buggy', this imaginary bug can happen.",
           "matchingRules": [
             {
@@ -63,7 +63,7 @@
       "risks": [
         {
           "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.10.0-0.nightly/release/4.10.0-0.nightly-2021-11-24-075634",
-          "name": "ReleaseIsRejected!",
+          "name": "ReleaseIsRejected",
           "message": "Too many CI failures on this release, so do not update to it",
           "matchingRules": [
             {
@@ -80,7 +80,7 @@
       "risks": [
         {
           "url": "https://bug.example.com/c",
-          "name": "SomeInfrastructureThing!",
+          "name": "SomeInfrastructureThing",
           "message": "Clusters on nonexist provider, this imaginary bug can happen.",
           "matchingRules": [
             {
