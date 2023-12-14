@@ -1,18 +1,18 @@
 {
   "nodes": [
     {
-      "version": "4.15.0-0.test-2023-12-05-123655-ci-ln-chyhc0b-latest",
-      "payload": "registry.build02.ci.openshift.org/ci-ln-chyhc0b/release@sha256:1b2cae82aa5cede8f4b20c6cc4252aad42972b351472be844940965f27620d57"
+      "version": "4.15.0-0.nightly-2023-12-14-023407",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:a40d2a3e47643a4546063c01ff6c4097162ea31802d3d0ecfa54abbfbc89c884"
     },
     {
-      "version": "4.15.0-0.nightly-2023-12-11-065245",
+      "version": "4.15.0-0.nightly-2023-12-30-065245",
       "payload": "registry.ci.openshift.org/ocp/release@sha256:d9759e7c8ec5e2555419d84ff36aff2a4c8f9367236c18e722a3fe4d7c4f6dee"
     }
   ],
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.15.0-0.test-2023-12-05-123655-ci-ln-chyhc0b-latest", "to": "4.15.0-0.nightly-2023-12-11-065245"}
+        {"from": "4.15.0-0.nightly-2023-12-14-023407", "to": "4.15.0-0.nightly-2023-12-30-065245"}
       ],
       "risks": [
         {
