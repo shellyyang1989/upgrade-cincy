@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "version": "4.16.0-0.nightly-2023-12-28-181847",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:b600239fac447ddd7e7088ae33ac556594053b0fd2d43740c8223ad2d6f899f1"
+      "version": "4.16.0-0.test-2023-12-29-125657-ci-ln-rscpzh2-latest",
+      "payload": "registry.build02.ci.openshift.org/ci-ln-rscpzh2/release@sha256:7cffdf5764ae6563c299debb48a5fb6e551f52b5127e26d1d67dc6bcf7a856c0"
     },
     {
       "version": "4.16.0-0.nightly-2023-12-30-065245",
@@ -12,7 +12,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.16.0-0.nightly-2023-12-28-181847", "to": "4.16.0-0.nightly-2023-12-30-065245"}
+        {"from": "4.16.0-0.test-2023-12-29-125657-ci-ln-rscpzh2-latest", "to": "4.16.0-0.nightly-2023-12-30-065245"}
       ],
       "risks": [
         {
@@ -23,7 +23,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "0 * group(cluster_version)"
+                "promql": "group(cluster_version_available_updates{channel=buggy})"
               }
             }
           ]
