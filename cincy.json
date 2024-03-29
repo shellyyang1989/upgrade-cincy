@@ -1,15 +1,15 @@
 {
   "nodes": [
     {
-      "version": "4.9.0-0.nightly-2021-08-25-111423",
-      "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:cf6d6e3fe68fda6bc845f4909c029ecebb9eefb77361e6b5712bc45bf9b1c47b",
+      "version": "4.16.0-0.test-2024-03-29-025123-ci-ln-bzlt8y2-latest",
+      "payload": "registry.build03.ci.openshift.org/ci-ln-bzlt8y2/release@sha256:4fadb47bc211646da8724e05777775a3460b1770a0b8b11e17294470bd1afb99",
       "metadata": {
         "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.9.0-0.nightly/release/4.9.0-0.nightly-2021-08-25-111423",
 	"io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,nightly-4.9"
       }
     },
     {
-      "version": "4.9.0-0.nightly-2021-08-28-150051",
+      "version": "4.17.0-0.nightly-2021-08-28-150051",
       "payload": "registry.svc.ci.openshift.org/ocp/release@sha256:4f0ee87e83419d2e0a86bb386585a66652e6a072f50bcb42180ff547b0c995d6",
       "metadata": {
         "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.9.0-0.nightly/release/4.9.0-0.nightly-2021-08-28-150051",
