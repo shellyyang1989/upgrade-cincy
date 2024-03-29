@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "version": "4.16.0-0.test-2024-01-25-081001-ci-ln-gq54lft-latest",
-      "payload": "registry.build05.ci.openshift.org/ci-ln-gq54lft/release@sha256:75ac8051eb9648fb8f6051d2e4b3cde68f370d647eff3f2f28de8e2699b190b8"
+      "version": "4.16.0-0.test-2024-03-28-103443-ci-ln-7s8866t-latest",
+      "payload": "registry.build03.ci.openshift.org/ci-ln-7s8866t/release@sha256:d7e027a1b9291f641833c85dfe1fe9ef6422e93675d2657265c386d0478a4bd0"
     },
     {
       "version": "4.17.0-0.nightly-2023-12-17-000000",
@@ -30,7 +30,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.16.0-0.test-2024-01-25-081001-ci-ln-gq54lft-latest", "to": "4.17.0-0.nightly-2023-12-17-000000"}
+        {"from": "4.16.0-0.test-2024-03-28-103443-ci-ln-7s8866t-latest", "to": "4.17.0-0.nightly-2023-12-17-000000"}
       ],
       "risks": [
         {
@@ -63,12 +63,12 @@
     },
     {
       "edges": [
-        {"from": "4.16.0-0.test-2024-01-25-081001-ci-ln-gq54lft-latest", "to": "4.17.0-0.nightly-2023-12-18-111111"}
+        {"from": "4.16.0-0.test-2024-03-28-103443-ci-ln-7s8866t-latest", "to": "4.17.0-0.nightly-2023-12-18-111111"}
       ],
       "risks": [
         {
           "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.10.0-0.nightly/release/4.10.0-0.nightly-2021-11-24-075634",
-          "name": "ReleaseIsRejected",
+          "name": "ReleaseIsRejected!",
           "message": "Too many CI failures on this release, so do not update to it",
           "matchingRules": [
             {
@@ -80,7 +80,7 @@
     },
     {
       "edges": [
-        {"from": "4.16.0-0.test-2024-01-25-081001-ci-ln-gq54lft-latest", "to": "4.17.0-0.nightly-2023-12-19-222222"}
+        {"from": "4.16.0-0.test-2024-03-28-103443-ci-ln-7s8866t-latest", "to": "4.17.0-0.nightly-2023-12-19-222222"}
       ],
       "risks": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "edges": [
-        {"from": "4.16.0-0.test-2024-01-25-081001-ci-ln-gq54lft-latest", "to": "4.17.0-0.nightly-2023-12-20-333333"}
+        {"from": "4.16.0-0.test-2024-03-28-103443-ci-ln-7s8866t-latest", "to": "4.17.0-0.nightly-2023-12-20-333333"}
       ],
       "risks": [
         {
